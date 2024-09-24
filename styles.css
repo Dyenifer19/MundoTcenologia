@@ -1,0 +1,189 @@
+/* Definição geral do corpo da página */
+body {
+    background-color: #ffffff; /* Fundo branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Texto preto */
+}
+
+/* Estilo para a tabela de programação */
+.tabela-programacao {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tabela-programacao th, .tabela-programacao td {
+    border: 1px solid #007BFF; /* Bordas azuis */
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-programacao th {
+    background-color: #007BFF; /* Fundo azul para os cabeçalhos */
+    color: white; /* Texto branco no cabeçalho */
+}
+
+.tabela-programacao tr:nth-child(even) {
+    background-color: #f0f8ff; /* Azul claro nas linhas pares */
+}
+
+.tabela-programacao tr:nth-child(odd) {
+    background-color: #ffffff; /* Fundo branco nas linhas ímpares */
+}
+
+.tabela-programacao tr:hover {
+    background-color: #e0f0ff; /* Azul mais claro ao passar o mouse */
+}
+
+
+/* Estilo para os palestrantes */
+.palestrantes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os palestrantes */
+    padding: 20px;
+}
+
+.palestrante {
+    border: 1px solid #007BFF; /* Borda azul */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f0f8ff; /* Azul muito claro */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.palestrante h3 {
+    margin: 0;
+    color: black; /* para os títulos */
+}
+
+/* Estilo geral para o cabeçalho */
+header {
+    background-color: #007BFF; /* Fundo azul */
+    color: black; /* Texto branco */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black; /* Links brancos */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF; /* Fundo azul */
+    color: black; /* Texto branco */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilo para o formulário de inscrição */
+.form-inscricao {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #007BFF; /* Borda azul */
+    border-radius: 8px;
+    background-color: #f0f8ff; /* Fundo azul claro */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-inscricao label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #007BFF; /* Texto azul para os rótulos */
+}
+
+.form-inscricao input,
+.form-inscricao select,
+.form-inscricao textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #007BFF; /* Borda azul */
+    border-radius: 4px;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+
+.form-inscricao button {
+    background-color: #007BFF; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-inscricao button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+/* Seções de contato */
+.informacoes-contato, .mapa-local, .formulario-contato {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #007BFF; /* Borda azul */
+    background-color: #f0f8ff; /* Fundo azul claro */
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.informacoes-contato h2, .mapa-local h2, .formulario-contato h2 {
+    color: black; /* Azul para os títulos */
+}
+.informacoes-contato p {
+    font-size: 16px;
+    color: #000000; /* Texto preto */
+}
+
+.informacoes-contato a {
+    color: #007BFF; /* Links em azul */
+    text-decoration: none;
+}
+.form-contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #007BFF; /* Azul para os rótulos */
+}
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #007BFF; /* Borda azul */
+    border-radius: 4px;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+.form-contato button {
+    background-color: #007BFF; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-contato button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}

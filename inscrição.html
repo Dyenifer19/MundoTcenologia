@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mundo Tecnologia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MUNDO TECNOLOGIA! </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="programação.html">Programação</a></li>
+                <li><a href="palestras.html">Palestrantes</a></li>
+                <li><a href="inscrição.html">Incrições</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+    <main>
+        <h2>Formulário de Inscrição</h2>
+        <form action="#" method="post" class="form-inscricao">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+            <label for="ingresso">Opções de Ingresso:</label>
+            <select id="ingresso" name="ingresso" required>
+                <option value="" disabled selected>Escolha o tipo de ingresso </option>
+                <option value="padrao">Ingresso Padrão - R$100,00</option>
+                <option value="vip">Ingresso VIP - R$250,00</option>
+                <option value="estudante">Ingresso Estudante - R$50,00</option>
+            </select>
+
+            <label for="atividade">Palestra de Interesse:</label>
+            <select id="atividade" name="atividade" required>
+                <option value=""selected>Selecione a paletra de seu Interesse</option>
+                <option value="keynote">Keynote: O Futuro da Tecnologia</option>
+                <option value="workshop-apps">Workshop: Desenvolvimento de Aplicativos</option>
+                <option value="painel">Painel: Desafios e Oportunidades</option>
+                <option value="workshop-seguranca">Workshop: Segurança da Informação</option>
+            </select>
+
+            <label for="mensagem">Mensagem (Opcional):</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Deixe uma mensagem"></textarea>
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </main>
+    <footer> 
+    </footer>
+</body>
+</html>
